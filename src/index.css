@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-slate-950;
+  @apply p-5;
+  @apply h-screen;
+}
+
+div#root{
+  @apply h-full;
+
+}
+
+main{
+  @apply bg-white m-auto  h-full rounded-md p-2;
+  @apply flex flex-col justify-center items-center; 
+  @apply text-xl
+}
+
+.dice{
+  @apply cursor-pointer font-bold;
+  @apply bg-white rounded-md shadow-md;
+  /* @apply px-5 py-3 bg-white rounded-sm shadow-md w-fit; */
+  @apply h-12 w-12 text-center p-3;
+
+  @apply hover:shadow-xl hover:font-extrabold hover:border border-gray-200;
+}
